@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>tx audio demo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="not-support">
+    <div class="footer-container">
+        <p>在您的浏览器上无法展示,请更换浏览器,为保证最佳效果,请使用最新版本的chrome,firefox进行浏览.</p>
+    </div>
+</div>
+
+<!-- 可视化部分 -->
+<canvas id="canvas1" class="left"></canvas>
+<div class="canvas-warp left">
+    <canvas id="canvas2" class="together"></canvas>
+    <canvas id="canvas3" class="together"></canvas>
+    <canvas id="canvas4" class="together"></canvas>
+</div>
+
+<footer>
+    <button id="play">play</button>
+    <button id="pause">pause</button>
+</footer>
+
+<script src="/res/audio.build.js"></script>
+</body>
+</html>

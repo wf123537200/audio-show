@@ -1,0 +1,1 @@
+body{background:aliceblue}.left{float:left}.right{float:right}.not-support{width:100vw;height:50px;position:absolute;bottom:0;left:0;top:-50px;bottom:inherit;text-align:center;transition:top .3 ease-out}.not-support .open{top:0}.canvas-warp{position:relative}.canvas-warp .together{position:absolute}footer{float:left;clear:both;width:100%;text-align:center;margin-top:50px}
